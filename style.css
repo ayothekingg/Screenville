@@ -75,7 +75,7 @@ form{
 main{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 40px;
+    justify-content: center;
    margin-top: 120px;
 }
 
@@ -152,5 +152,9 @@ main{
 
   .header-icon{
       display: none;
+  }
+
+  .search{
+      font-size: 0.7rem;
   }
 }
